@@ -37,6 +37,15 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+artifacts {
+    archives sourcesJar
+}
+
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
