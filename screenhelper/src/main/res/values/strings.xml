@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ScreenHelper</string>
+    <string name="sw_info">sw-default</string>
 </resources>

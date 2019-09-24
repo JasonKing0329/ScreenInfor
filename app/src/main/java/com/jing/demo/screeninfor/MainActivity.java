@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView textView = (TextView) findViewById(R.id.screen_text);
-        textView.setText(ScreenUtil.getScreenInfor(this));
+        textView.setText(ScreenUtil.getScreenInfor(this) + "\n"
+            + "Real res: " + getString(R.string.sw_info));
+
     }
 }

@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="PepperView">
+        <attr name="pepperSrc" format="reference"/>
+        <attr name="pepperNum" format="integer"/>
+        <attr name="pepperNumMax" format="integer"/>
+        <attr name="itemWidth" format="dimension"/>
+    </declare-styleable>
+
 </resources>
